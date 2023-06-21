@@ -1,4 +1,9 @@
 # Docker
+- task: Docker@2
+  inputs:
+    containerRegistry: 'obab'
+    repository: 'obab / brief14_app_obab'
+    command: 'push'
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
